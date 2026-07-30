@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ياسر ديف | مطور مواقع</title>
+    
+    <!-- SEO Meta -->
+    <meta name="description" content="أنا ياسر، مطور مواقع محترف متخصص في بناء حلول رقمية مبتكرة باستخدام PHP، JavaScript، و MySQL." />
+    <meta name="keywords" content="مطور مواقع, ياسر, PHP, JavaScript, MySQL, برمجة, تصميم واجهات" />
+    <meta name="author" content="Yaser" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ياسر ديف | مطور مواقع محترف" />
+    <meta property="og:description" content="أحوّل الأفكار إلى مواقع وتجارب رقمية احترافية" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-github-username.github.io/yaser-portfolio/" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+        <div class="container">
+            <a href="#hero" class="logo" aria-label="ياسر ديف - الرئيسية">
+                <span class="logo-text">YASER</span>
+                <span class="logo-highlight">DEV</span>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="فتح القائمة" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="#hero" role="menuitem">الرئيسية</a></li>
+                <li role="none"><a href="#about" role="menuitem">عني</a></li>
+                <li role="none"><a href="#skills" role="menuitem">المهارات</a></li>
+                <li role="none"><a href="#projects" role="menuitem">المشاريع</a></li>
+                <li role="none"><a href="#services" role="menuitem">الخدمات</a></li>
+                <li role="none"><a href="#contact" role="menuitem">التواصل</a></li>
+                <li role="none">
+                    <a href="#contact" class="btn-primary nav-cta" role="menuitem">
+                        <i class="bi bi-send"></i> اطلب مشروعك
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">
+                        <i class="bi bi-code-square"></i> مطور مواقع
+                    </span>
+                    <h1 class="hero-title">
+                        أحوّل الأفكار إلى <br />
+                        <span class="gradient-text">مواقع وتجارب رقمية</span><br />
+                        احترافية
+                    </h1>
+                    <p class="hero-description">
+                        أنا ياسر، مطور مواقع مهتم ببناء حلول عملية وواجهات حديثة 
+                        باستخدام <strong>PHP</strong> و <strong>JavaScript</strong> و <strong>MySQL</strong>.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-primary">
+                            <i class="bi bi-grid-3x3-gap-fill"></i> شاهد مشاريعي
+                        </a>
+                        <a href="#contact" class="btn-secondary">
+                            <i class="bi bi-chat-dots"></i> تواصل معي
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">developer.js</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="terminal-keyword">const</span> 
+                                <span class="terminal-variable">developer</span> 
+                                <span class="terminal-operator">=</span> 
+                                <span class="terminal-brace">{</span>
+                            </div>
+                            <div class="terminal-line terminal-indent">
+                                <span class="terminal-property">name</span>:
+                                <span class="terminal-string">"Yaser"</span>,
+                            </div>
+                            <div class="terminal-line terminal-indent">
+                                <span class="terminal-property">role</span>:
+                                <span class="terminal-string">"Web Developer"</span>,
+                            </div>
+                            <div class="terminal-line terminal-indent">
+                                <span class="terminal-property">skills</span>:
+                                <span class="terminal-bracket">[</span>
+                                <span class="terminal-string">"PHP"</span>, 
+                                <span class="terminal-string">"JavaScript"</span>, 
+                                <span class="terminal-string">"MySQL"</span>
+                                <span class="terminal-bracket">]</span>,
+                            </div>
+                            <div class="terminal-line terminal-indent">
+                                <span class="terminal-property">passion</span>:
+                                <span class="terminal-string">"Building useful products"</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="terminal-brace">}</span>
+                                <span class="terminal-cursor">|</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">من أنا</span>
+                <h2 class="section-title">نبذة <span class="gradient-text">عني</span></h2>
+                <p class="section-subtitle">تعرف عليّ أكثر وعلى رحلتي في عالم البرمجة</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        أنا مطور مواقع شغوف بعلوم الحاسب وبناء المشاريع العملية. 
+                        أهتم بتحويل الأفكار إلى مواقع سريعة، منظمة، ومتجاوبة، 
+                        مع التركيز على <strong>تجربة المستخدم</strong> و <strong>جودة الكود</strong>.
+                    </p>
+                    <p>
+                        أؤمن بأن البرمجة ليست مجرد كتابة أكواد، بل هي أداة لبناء 
+                        حلول تُحدث فرقًا حقيقيًا في حياة الناس والأعمال. أسعى دائمًا 
+                        لتطوير مهاراتي وتعلم تقنيات جديدة.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="12">0</span>
+                            <span class="stat-label">مشاريع منجزة</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="8">0</span>
+                            <span class="stat-label">تقنيات أستخدمها</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="500">0</span>
+                            <span class="stat-label">ساعات تعلم وتطوير</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">أفكار قيد التنفيذ</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="code-block">
+                        <div class="code-line">
+                            <span class="code-keyword">class</span> 
+                            <span class="code-class">Developer</span> 
+                            <span class="code-brace">{</span>
+                        </div>
+                        <div class="code-line code-indent">
+                            <span class="code-keyword">public</span> 
+                            <span class="code-variable">$name</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-string">'Yaser'</span>;
+                        </div>
+                        <div class="code-line code-indent">
+                            <span class="code-keyword">public</span> 
+                            <span class="code-variable">$title</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-string">'Web Developer'</span>;
+                        </div>
+                        <div class="code-line code-indent">
+                            <span class="code-keyword">public</span> 
+                            <span class="code-variable">$skills</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-bracket">[</span>
+                            <span class="code-string">'PHP'</span>, 
+                            <span class="code-string">'JS'</span>, 
+                            <span class="code-string">'SQL'</span>
+                            <span class="code-bracket">]</span>;
+                        </div>
+                        <div class="code-line code-indent">
+                            <span class="code-keyword">public</span> 
+                            <span class="code-function">getBio</span>() 
+                            <span class="code-brace">{</span>
+                        </div>
+                        <div class="code-line code-indent-2">
+                            <span class="code-keyword">return</span> 
+                            <span class="code-string">'Building useful products'</span>;
+                        </div>
+                        <div class="code-line code-indent">
+                            <span class="code-brace">}</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-brace">}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">خبراتي</span>
+                <h2 class="section-title">المهارات <span class="gradient-text">التقنية</span></h2>
+                <p class="section-subtitle">الأدوات والتقنيات التي أعمل بها يوميًا</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-filetype-html"></i></div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <span class="skill-level">أستخدمها باستمرار</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-filetype-css"></i></div>
+                    <h3 class="skill-name">CSS3</h3>
+                    <span class="skill-level">أستخدمها باستمرار</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-filetype-js"></i></div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <span class="skill-level">أستخدمها باستمرار</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-filetype-php"></i></div>
+                    <h3 class="skill-name">PHP</h3>
+                    <span class="skill-level">أستخدمها باستمرار</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-database"></i></div>
+                    <h3 class="skill-name">MySQL</h3>
+                    <span class="skill-level">أستخدمها باستمرار</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-git"></i></div>
+                    <h3 class="skill-name">Git</h3>
+                    <span class="skill-level">جيد</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-github"></i></div>
+                    <h3 class="skill-name">GitHub</h3>
+                    <span class="skill-level">جيد</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-phone"></i></div>
+                    <h3 class="skill-name">Responsive Design</h3>
+                    <span class="skill-level">أستخدمها باستمرار</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-palette"></i></div>
+                    <h3 class="skill-name">UI/UX Basics</h3>
+                    <span class="skill-level">جيد</span>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-cloud"></i></div>
+                    <h3 class="skill-name">REST APIs</h3>
+                    <span class="skill-level">أتعلمها حاليًا</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">أعمالي</span>
+                <h2 class="section-title">المشاريع <span class="gradient-text">الحديثة</span></h2>
+                <p class="section-subtitle">نماذج من مشاريعي التي تعكس جودة عملي</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="websites">مواقع</button>
+                <button class="filter-btn" data-filter="systems">أنظمة</button>
+                <button class="filter-btn" data-filter="apps">تطبيقات</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Webix -->
+                <div class="project-card" data-category="websites">
+                    <div class="project-image">
+                        <img src="assets/images/MYWEBIX.png" alt="Webix - منصة طلب تصميم المواقع" />
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Webix</h3>
+                        <p class="project-description">
+                            منصة عربية لطلب تصميم وبرمجة المواقع وإدارة طلبات العملاء.
+                        </p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn-details">التفاصيل</a>
+                            <a href="http://github.com/m4gr" class="btn-github"><i class="bi bi-github"></i></a>
+                            <a href="#" class="btn-demo"><i class="bi bi-play-circle"></i> تجربة</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Webix PC -->
+                <div class="project-card" data-category="websites">
+                    <div class="project-image">
+                        <img src="assets/images/WEBIXPC.png" alt="Webix PC - منصة تجميعات الكمبيوتر" />
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Webix PC</h3>
+                        <p class="project-description">
+                            منصة لبناء تجميعات الكمبيوتر وفحص توافق القطع.
+                        </p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn-details">التفاصيل</a>
+                            <a href="http://github.com/m4gr" class="btn-github"><i class="bi bi-github"></i></a>
+                            <a href="#" class="btn-demo"><i class="bi bi-play-circle"></i> تجربة</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: PSUsageTracker -->
+                <div class="project-card" data-category="apps">
+                    <div class="project-image">
+                        <img src="assets/images/PCUsageTrucker.png" alt="PCUsageTracker - متابعة استخدام الكمبيوتر" />
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">PCUsageTracker</h3>
+                        <p class="project-description">
+                            برنامج لمتابعة مدة استخدام الكمبيوتر والجلسات والتطبيقات النشطة.
+                        </p>
+                        <div class="project-tech">
+                            <span>C#</span>
+                            <span>.NET</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn-details">التفاصيل</a>
+                            <a href="http://github.com/m4gr" class="btn-github"><i class="bi bi-github"></i></a>
+                            <a href="#" class="btn-demo"><i class="bi bi-play-circle"></i> تجربة</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4,5,6: Financial Dashboard -->
+                <!--<div class="project-card" data-category="systems">
+                    <div class="project-image">
+                        <img src="assets/images/project-placeholder.svg" alt="Financial Dashboard - لوحة تحكم مالية" />
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Financial Dashboard</h3>
+                        <p class="project-description">
+                            لوحة تحكم لإدارة المصاريف والإحصائيات المالية.
+                        </p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn-details">التفاصيل</a>
+                            <a href="#" class="btn-github"><i class="bi bi-github"></i></a>
+                            <a href="#" class="btn-demo"><i class="bi bi-play-circle"></i> تجربة</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5: Playground Booking System -->
+                <!--<div class="project-card" data-category="systems">
+                    <div class="project-image">
+                        <img src="assets/images/project-placeholder.svg" alt="Playground Booking System - حجز الملاعب" />
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Playground Booking System</h3>
+                        <p class="project-description">
+                            نظام لحجز الملاعب وإدارة الحجوزات.
+                        </p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn-details">التفاصيل</a>
+                            <a href="#" class="btn-github"><i class="bi bi-github"></i></a>
+                            <a href="#" class="btn-demo"><i class="bi bi-play-circle"></i> تجربة</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6: Hospital Management System -->
+                <!--<div class="project-card" data-category="systems">
+                    <div class="project-image">
+                        <img src="assets/images/project-placeholder.svg" alt="Hospital Management System - نظام إدارة المستشفيات" />
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Hospital Management System</h3>
+                        <p class="project-description">
+                            نظام بسيط لتسجيل وإدارة بيانات المرضى.
+                        </p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn-details">التفاصيل</a>
+                            <a href="#" class="btn-github"><i class="bi bi-github"></i></a>
+                            <a href="#" class="btn-demo"><i class="bi bi-play-circle"></i> تجربة</a>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ماذا أقدم</span>
+                <h2 class="section-title">الخدمات <span class="gradient-text">المهنية</span></h2>
+                <p class="section-subtitle">حلول تقنية متكاملة لبناء مشاريعك الرقمية</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="bi bi-code-square"></i></div>
+                    <h3 class="service-name">تصميم وبرمجة المواقع</h3>
+                    <p class="service-description">
+                        بناء مواقع متكاملة من الصفر بتصميم عصري ومتجاوب مع جميع الأجهزة.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="bi bi-server"></i></div>
+                    <h3 class="service-name">تطوير مواقع PHP وMySQL</h3>
+                    <p class="service-description">
+                        تطوير أنظمة ديناميكية باستخدام PHP مع قواعد بيانات MySQL.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="bi bi-layout-text-window"></i></div>
+                    <h3 class="service-name">تصميم صفحات هبوط</h3>
+                    <p class="service-description">
+                        تصميم صفحات هبوط احترافية جذابة لزيادة التحويلات.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="bi bi-speedometer2"></i></div>
+                    <h3 class="service-name">تطوير لوحات التحكم</h3>
+                    <p class="service-description">
+                        إنشاء لوحات تحكم إدارية متكاملة لإدارة الأعمال.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="bi bi-arrow-repeat"></i></div>
+                    <h3 class="service-name">تحسين وتطوير المواقع الحالية</h3>
+                    <p class="service-description">
+                        تطوير وتحسين أداء المواقع القائمة وجعلها أكثر كفاءة.
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="bi bi-lightbulb"></i></div>
+                    <h3 class="service-name">تحويل الأفكار إلى نماذج أولية</h3>
+                    <p class="service-description">
+                        تحويل أفكارك إلى نماذج أولية تفاعلية لاختبارها.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WORK PROCESS SECTION ========== -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">كيف نعمل</span>
+                <h2 class="section-title">طريقة <span class="gradient-text">العمل</span></h2>
+                <p class="section-subtitle">خطوات منهجية لضمان نجاح مشروعك</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">نفهم فكرتك</h3>
+                        <p class="step-description">
+                            نستمع إلى أفكارك ونناقش متطلباتك لنفهم بالضبط ما تحتاجه.
+                        </p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">نخطط للمشروع</h3>
+                        <p class="step-description">
+                            نضع خطة عمل متكاملة تحدد المراحل والمواعيد والمخرجات.
+                        </p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">نبدأ التصميم والبرمجة</h3>
+                        <p class="step-description">
+                            ننفذ التصميم والبرمجة بجودة عالية وباستخدام أحدث التقنيات.
+                        </p>
+                    </div>
+                    <div class="step-connector"></div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">نختبر ونسلم</h3>
+                        <p class="step-description">
+                            نختبر المشروع بدقة ونسلمه جاهزًا للتشغيل مع دعم ما بعد التسليم.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">تواصل معي</span>
+                <h2 class="section-title">هل لديك <span class="gradient-text">مشروع؟</span></h2>
+                <p class="section-subtitle">سأكون سعيدًا بالاستماع إلى فكرتك ومناقشتها</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <h4>البريد الإلكتروني</h4>
+                                <a href="mailto:yaseermm3@gmail.com">yaseermm3@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/m4gr" target="_blank">github.com/m4gr</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="#">NULL</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/966530738103" target="_blank">+966 53 073 8103</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" placeholder="أدخل اسمك" required />
+                        <span class="form-error">الرجاء إدخال الاسم</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required />
+                        <span class="form-error">الرجاء إدخال بريد إلكتروني صحيح</span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">رقم الجوال (اختياري)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="أدخل رقم جوالك" />
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project-type">نوع المشروع</label>
+                        <select id="project-type" name="project-type">
+                            <option value="">اختر نوع المشروع</option>
+                            <option value="website">موقع كامل</option>
+                            <option value="landing">صفحة هبوط</option>
+                            <option value="dashboard">لوحة تحكم</option>
+                            <option value="system">نظام إداري</option>
+                            <option value="other">أخرى</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" rows="5" placeholder="اكتب تفاصيل مشروعك..." required></textarea>
+                        <span class="form-error">الرجاء كتابة الرسالة</span>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-submit">
+                        <i class="bi bi-send"></i> إرسال الرسالة
+                    </button>
+                    
+                    <div class="form-success" id="formSuccess">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <p>تم إرسال رسالتك بنجاح! سأتواصل معك قريبًا.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="logo">
+                        <span class="logo-text">YASER</span>
+                        <span class="logo-highlight">DEV</span>
+                    </a>
+                    <p class="footer-description">
+                        مطور مواقع شغوف ببناء حلول رقمية مبتكرة وعملية.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#hero">الرئيسية</a></li>
+                        <li><a href="#about">عني</a></li>
+                        <li><a href="#skills">المهارات</a></li>
+                        <li><a href="#projects">المشاريع</a></li>
+                        <li><a href="#services">الخدمات</a></li>
+                        <li><a href="#contact">التواصل</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>تواصل معي</h4>
+                    <div class="social-icons">
+                        <a href="mailto:yaseermm3@gmail.com" aria-label="البريد الإلكتروني"><i class="bi bi-envelope"></i></a>
+                        <a href="https://github.com/m4gr" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/your-username" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://wa.me/966530738103" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> YASER DEV. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== BACK TO TOP BUTTON ========== -->
+    <button id="backToTop" class="back-to-top" aria-label="العودة إلى الأعلى">
+        <i class="bi bi-chevron-up"></i>
+    </button>
+
+    <!-- ========== MAIN JAVASCRIPT ========== -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
